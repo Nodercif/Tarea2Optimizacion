@@ -25,7 +25,7 @@ materiales = ["hierro", "oro", "diamante", "piedra", "madera"]
 # Consumo de materiales por cada ítem:
 
 # c[item][material]
-c = {it: {m: 0 for m in materiales} for it in items}
+c = {i: {m: 0 for m in materiales} for i in items}
 
 c["espada_hierro"]["hierro"] = 3
 c["espada_diamante"]["diamante"] = 2
